@@ -59,13 +59,62 @@ a {
         color: white;
         border-radius: 25px;
         background: #72ac51;
-        padding: 15px;
+        padding: 10px 15px 10px 15px;
             
     }
 
     .right-button:hover{
         background-color: #47752d;
     }
- 
+
+.about-body{
+    width: 1070px;
+
+    justify-content: center;
+   
+}
+
+.info-cards{
+    width: .75*1070px/2;
+    background-color:white;
+    margin-left: 20px;
+
+}
+
+
+.header-card-placeholder{
+    padding-top: 20px;
+
+}
+
+.nav-card{
+     
+     background-color:white;
+     width: .25*1070px;
+    height:fit-content;
+     display: flex;
+     flex-direction: column;
+     margin-left: 30px;
+}
+.nav-card-item{
+    font-size: 14px;
+    font-weight: 600;
+    
+
+    padding: 20px;
+    
+
+}
+.nav-card-item:hover{
+    background-color: #72ac51;
+    color: white;
+}
+
+.card-box{
+    width: 1070px;
+    display: flex;
+    
+}
+
 
  
