@@ -1,29 +1,63 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Musicca - Login</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">     
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+      rel="stylesheet"
+    />
     <link href="output.css" rel="stylesheet" />
   </head>
 
-  <body>
-    <h1>Login</h1>
-    <div class="menu">
-        <ul>
+  <body style="background-color: #ebebeb">
+    <div class="header">
+      <!-- centering div -->
+      <div class="centering">
+        <div class="header-items">
+          <div class="header-placeholder"></div>
+
+          <div class="logo">
+            <img class="logo-img" src="./assets/img/musicca-logo.png" />
+          </div>
+
+          <div class="nav">
+            <a class="nav-item" href="./404">Exercises</a>
+            <a class="nav-item" href="./404">Lessons</a>
+            <a class="nav-item" href="./about.html">About</a>
+          </div>
+          <div class="account-buttons">
+            <a class="right-button" href="./404">Create account</a>
+            <a class="right-button" href="./login.html">Log in</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="centering">
+      <div class="header-card-placeholder"></div>
+
+      <div class="login-card">
+        <h1>Log in</h1>
+        <div class="menu">
+          <ul>
             <li><a href="./about.html">About</a></li>
             <li><a href="./login.html">Login</a></li>
-        </ul>
+          </ul>
 
-        <form action="/register" method="post">
-          <input type="text" name="username">
-          <input type="text" name="password">
-          <input type="submit" value="submit">
-
-        </form>
+          <form action="/register" method="post">
+            <input type="text" name="username" />
+            <input type="text" name="password" />
+            <input type="submit" value="submit" />
+          </form>
+        </div>
+      </div>
     </div>
   </body>
 </html>

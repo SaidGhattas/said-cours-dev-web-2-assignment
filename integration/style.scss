@@ -1,7 +1,12 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
-
+.centering{
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+}
 a {
     /*
         Getting rid of default formatting for <a> elements. `inherits` tells that
@@ -17,7 +22,6 @@ a {
     display: flex;
     width: 1070px;
     height: 85px;
-    margin: auto;
     
     
     
@@ -69,16 +73,22 @@ a {
 
 .about-body{
     width: 1070px;
-
+// -----------------------------------------------------------
+    // align-items: center;
     justify-content: center;
-   
-}
+    // overflow: hidden
+// -----------------------------------------------------------
 
+}
+.page-title{
+    font: 36px;
+}
 .info-cards{
     width: .75*1070px/2;
     background-color:white;
     margin-left: 20px;
-
+    // display: flex;
+    // flex-direction: column;
 }
 
 
@@ -95,6 +105,8 @@ a {
      display: flex;
      flex-direction: column;
      margin-left: 30px;
+     
+ 
 }
 .nav-card-item{
     font-size: 14px;
@@ -117,4 +129,13 @@ a {
 }
 
 
+
+// Login Page:
+// ----------------------------------------------------------------
+
+.login-card{
+    background-color: white;
+    width: 570px;
+
+}
  
