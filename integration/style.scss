@@ -9,4 +9,63 @@ a {
     */
     text-decoration: inherit;
     color: inherit;
+}  
+.header{
+    background-color: white;
 }
+.header-items{
+    display: flex;
+    width: 1070px;
+    height: 85px;
+    margin: auto;
+    
+    
+    
+}
+
+.nav{
+    margin:auto;
+    margin-left: 15px;
+}
+    .header-placeholder{
+      padding-left: 5%;
+    }
+    .nav-item ,.right-button{
+
+        font-size: 14px;
+        justify-content: center;
+        flex-grow: 1;
+        color:  #1b1b1b;
+        font-weight: 600;
+        padding: 10px 15px;
+        
+    }
+    .nav-item:hover{
+       
+        border-radius: 25px;
+        background-color: #eee;
+        
+
+    }
+.logo-img{
+     height: 75px; 
+     width: 180px;
+}
+.account-buttons{
+    align-items: flex-end;
+    margin: auto;
+    }
+    .right-button{
+        color: white;
+        border-radius: 25px;
+        background: #72ac51;
+        padding: 15px;
+            
+    }
+
+    .right-button:hover{
+        background-color: #47752d;
+    }
+ 
+
+ 
