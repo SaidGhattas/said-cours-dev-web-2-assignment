@@ -159,7 +159,12 @@ a {
     margin-bottom: 20px;
     border-width: 1px;
     padding-left: 15px;
-    
+    &:focus{
+        outline-color: green;
+    }
+    &:invalid{
+        outline-color: red;
+    }
 }
 
 .submit-button{
