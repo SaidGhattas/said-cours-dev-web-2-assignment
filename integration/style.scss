@@ -32,9 +32,9 @@ a {
     margin-left: 15px;
 }
     .header-placeholder{
-      padding-left: 5%;
+    //   padding-left: 5%;
     }
-    .nav-item ,.right-button{
+    .nav-item ,.green-button{
 
         font-size: 14px;
         justify-content: center;
@@ -51,46 +51,49 @@ a {
         
 
     }
-.logo-img{
-     height: 75px; 
+.logo-img{ 
+     height: 45px; 
      width: 180px;
+     margin-top: 17px;
+     
+     
 }
 .account-buttons{
     align-items: flex-end;
-    margin: auto;
+    margin-top: auto;
+    margin-bottom: auto;
     }
-    .right-button{
+    .green-button{
         color: white;
         border-radius: 25px;
         background: #72ac51;
         padding: 10px 15px 10px 15px;
-            
+        
     }
 
-    .right-button:hover{
+    .green-button:hover{
         background-color: #47752d;
     }
 
-.about-body{
+.body-top{
     width: 1070px;
-// -----------------------------------------------------------
-    // align-items: center;
-    justify-content: center;
-    // overflow: hidden
-// -----------------------------------------------------------
-
+    display: flex;
 }
-.page-title{
-    font: 36px;
+.body-right{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
 }
 .info-cards{
-    width: .75*1070px/2;
+    max-width: 391.25px; 
     background-color:white;
-    margin-left: 20px;
-    // display: flex;
-    // flex-direction: column;
+    
+    
 }
-
+.info-cards-text{
+    padding-left: 30px;
+    padding-right: 60px;
+}
 
 .header-card-placeholder{
     padding-top: 20px;
@@ -100,31 +103,29 @@ a {
 .nav-card{
      
      background-color:white;
-     width: .25*1070px;
-    height:fit-content;
+     width:  250px;
+     height:fit-content;
      display: flex;
      flex-direction: column;
-     margin-left: 30px;
      
  
 }
 .nav-card-item{
     font-size: 14px;
     font-weight: 600;
-    
-
     padding: 20px;
     
 
-}
-.nav-card-item:hover{
-    background-color: #72ac51;
-    color: white;
+    &:hover{
+         background-color: #72ac51;
+         color: white;
+    }
 }
 
 .card-box{
     width: 1070px;
     display: flex;
+    max-width: 802.5px;
     
 }
 
@@ -138,4 +139,38 @@ a {
     width: 570px;
 
 }
+
+.login-title{
+    font-size: 32px;
+    margin-left: 60px;
+    margin-top: 67px;
+    color: #565656;
+    font-weight: 400;
+}
  
+.form-input{
+    display: flex; 
+    flex-direction: column; 
+    font-size : 16px;
+    height: 45px;
+    width: 432px;
+    max-width: 450px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    border-width: 1px;
+    padding-left: 15px;
+    
+}
+
+.submit-button{
+    display: flex; 
+    flex-direction: column; 
+    border: none;
+    height: 42px;
+    max-width: 450px; 
+    margin-left: 60px;
+    padding-left: 220px; 
+    padding-right: 220px; 
+    margin-bottom: 60px;  
+    font-size : 14px;
+}
